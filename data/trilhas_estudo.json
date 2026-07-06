@@ -1,0 +1,54 @@
+{
+  "trilhas": [
+    {
+      "id": "trilha-iniciante",
+      "nome": "Trilha Inicial - 30 dias",
+      "perfil": "Candidato iniciante ou retornando aos estudos",
+      "objetivo": "Criar rotina, conhecer disciplinas base e iniciar questões.",
+      "semanas": [
+        {
+          "semana": 1,
+          "foco": "Mapear edital, organizar materiais e estudar fundamentos."
+        },
+        {
+          "semana": 2,
+          "foco": "Alternar teoria curta com questões por disciplina."
+        },
+        {
+          "semana": 3,
+          "foco": "Criar caderno de erros e revisar pontos frágeis."
+        },
+        {
+          "semana": 4,
+          "foco": "Realizar simulado diagnóstico e ajustar o plano."
+        }
+      ],
+      "recomendacao": "Estudar 5 dias por semana, com revisão no sábado e simulado no domingo."
+    },
+    {
+      "id": "trilha-intermediaria",
+      "nome": "Trilha Intermediária - Questões e Revisão",
+      "perfil": "Candidato que já conhece o edital e precisa ganhar desempenho.",
+      "objetivo": "Aumentar volume de questões e transformar erros em plano de revisão.",
+      "semanas": [
+        {
+          "semana": 1,
+          "foco": "Resolver questões por tópico e registrar erros."
+        },
+        {
+          "semana": 2,
+          "foco": "Revisar temas com maior taxa de erro."
+        },
+        {
+          "semana": 3,
+          "foco": "Fazer simulados por bloco de disciplinas."
+        },
+        {
+          "semana": 4,
+          "foco": "Simulado completo e análise de desempenho."
+        }
+      ],
+      "recomendacao": "Priorizar questões, revisão ativa e simulados cronometrados."
+    }
+  ]
+}
