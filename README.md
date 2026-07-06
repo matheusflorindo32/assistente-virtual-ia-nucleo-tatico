@@ -13,6 +13,10 @@ Projeto autoral desenvolvido para o Lab DIO **"Construa Seu Assistente Virtual C
 ![DIO](https://img.shields.io/badge/DIO-Lab%20IA-F59E0B)
 ![License](https://img.shields.io/badge/license-MIT-111827)
 
+<br>
+
+🚀 **Demo online:** [mentor-estudos-ia.streamlit.app](https://mentor-estudos-ia.streamlit.app/)
+
 </div>
 
 ---
@@ -76,6 +80,7 @@ O fluxo foi desenhado para ser simples de testar:
 | Casos de teste | tabela em `data/casos_teste.csv` |
 | LLM local opcional | integração com Ollama via variável de ambiente |
 | Sem chaves expostas | `.env.example` sem segredo real |
+| Deploy público | Streamlit Community Cloud |
 
 ## Arquitetura
 
@@ -97,7 +102,7 @@ flowchart TD
 
 ### Decisões de arquitetura
 
-- **KISS:** sem banco, backend ou autenticação; tudo roda localmente.
+- **KISS:** sem banco, backend ou autenticação; tudo roda de forma simples.
 - **YAGNI:** embeddings e banco vetorial ficam como evolução futura.
 - **Segurança:** o agente não consulta dados pessoais nem inventa informação oficial.
 - **Auditabilidade:** o usuário consegue ver quais trechos da base foram usados.
@@ -201,6 +206,14 @@ Na interface, ative **Usar LLM local via Ollama**.
 
 ## Deploy
 
+### Demo publicada
+
+A aplicação está disponível em:
+
+```text
+https://mentor-estudos-ia.streamlit.app/
+```
+
 ### Streamlit Community Cloud
 
 1. Faça fork ou push deste repositório no GitHub.
@@ -208,19 +221,14 @@ Na interface, ative **Usar LLM local via Ollama**.
 3. Crie um novo app apontando para:
 
 ```text
-src/app.py
+Repository: matheusflorindo32/assistente-virtual-ia-nucleo-tatico
+Branch: main
+Main file path: src/app.py
 ```
 
 4. O modo seguro baseado em regras funciona sem secrets.
 
 > Observação: Ollama é local. Em deploy cloud, use o modo padrão sem LLM local ou adapte para um provedor com autenticação segura via secrets.
-
-### Hugging Face Spaces
-
-1. Crie um Space do tipo Streamlit.
-2. Envie os arquivos do projeto.
-3. Configure `requirements.txt`.
-4. Defina `src/app.py` como entrada da aplicação, se necessário.
 
 ## Exemplos de Perguntas
 
@@ -290,6 +298,7 @@ O diferencial do projeto é unir uma interface simples de chat com base de conhe
 - [x] Dados mockados e seguros
 - [x] Regras anti-alucinação
 - [x] Protótipo executável com Streamlit
+- [x] Deploy público no Streamlit Community Cloud
 
 ## Roadmap
 
