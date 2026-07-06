@@ -1,0 +1,109 @@
+[
+  {
+    "id": "faq-001",
+    "categoria": "inicio",
+    "pergunta": "Como começar a estudar para concurso de segurança pública?",
+    "resposta": "Comece pelo edital ou edital anterior, identifique as disciplinas mais cobradas, monte uma rotina semanal simples e priorize questões desde a primeira semana. Use ciclos curtos de estudo, revisão e simulados.",
+    "tags": [
+      "começar",
+      "início",
+      "edital",
+      "concurso",
+      "segurança pública",
+      "rotina"
+    ]
+  },
+  {
+    "id": "faq-002",
+    "categoria": "cronograma",
+    "pergunta": "Tenho pouco tempo por dia. Como organizar os estudos?",
+    "resposta": "Com pouco tempo, use blocos de 25 a 50 minutos. Divida a semana entre teoria essencial, resolução de questões, revisão dos erros e simulados. Evite tentar estudar todas as disciplinas no mesmo dia.",
+    "tags": [
+      "tempo",
+      "cronograma",
+      "rotina",
+      "pouco tempo",
+      "organização"
+    ]
+  },
+  {
+    "id": "faq-003",
+    "categoria": "questoes",
+    "pergunta": "O que fazer quando erro muitas questões?",
+    "resposta": "Erros são diagnóstico. Registre o tema, o motivo do erro e a explicação correta. Depois, revise esse caderno de erros antes de novos simulados.",
+    "tags": [
+      "questões",
+      "erro",
+      "caderno de erros",
+      "simulado",
+      "revisão"
+    ]
+  },
+  {
+    "id": "faq-004",
+    "categoria": "revisao",
+    "pergunta": "Como revisar melhor o conteúdo?",
+    "resposta": "Use revisão ativa: questões, flashcards, resumos de uma página e explicação em voz alta. Priorize revisar os assuntos que você erra com frequência.",
+    "tags": [
+      "revisão",
+      "flashcards",
+      "memorização",
+      "questões",
+      "aprendizagem ativa"
+    ]
+  },
+  {
+    "id": "faq-005",
+    "categoria": "simulado",
+    "pergunta": "Quando devo fazer simulados?",
+    "resposta": "Faça simulados desde o início, mas com complexidade progressiva. No começo, use simulados menores por disciplina. Depois, avance para simulados completos com tempo controlado.",
+    "tags": [
+      "simulado",
+      "prova",
+      "tempo",
+      "treino",
+      "avaliação"
+    ]
+  },
+  {
+    "id": "faq-006",
+    "categoria": "seguranca",
+    "pergunta": "Você pode garantir minha aprovação?",
+    "resposta": "Não. Nenhum assistente pode garantir aprovação. O papel do assistente é ajudar na organização, clareza e tomada de decisão durante os estudos.",
+    "tags": [
+      "aprovação",
+      "garantia",
+      "limite",
+      "segurança",
+      "promessa"
+    ]
+  },
+  {
+    "id": "faq-007",
+    "categoria": "edital",
+    "pergunta": "Qual é o edital oficial mais recente?",
+    "resposta": "Essa pergunta depende de informação atualizada. O assistente não deve inventar datas, banca, vagas, salário ou requisitos. Consulte sempre o edital oficial e a página da banca organizadora.",
+    "tags": [
+      "edital",
+      "banca",
+      "atualizado",
+      "oficial",
+      "data",
+      "salário",
+      "vagas"
+    ]
+  },
+  {
+    "id": "faq-008",
+    "categoria": "motivacao",
+    "pergunta": "Como manter constância nos estudos?",
+    "resposta": "Defina uma meta mínima diária, registre presença, acompanhe evolução por questões e evite depender apenas de motivação. Constância nasce de rotina simples e repetível.",
+    "tags": [
+      "motivação",
+      "constância",
+      "disciplina",
+      "rotina",
+      "hábito"
+    ]
+  }
+]
